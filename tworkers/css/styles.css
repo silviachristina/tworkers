@@ -1,0 +1,110 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	/* font-family: 'Muli', sans-serif;
+	font-weight: 300; */
+	font-family: 'Quicksand', sans-serif;
+	color: #5B9BD5;
+}
+
+/* -----------------------
+	BACKGROUND
+   -----------------------*/
+
+   #background {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	position: absolute;
+	text-align: center;
+}
+
+/* ------------------------
+	LOADING
+   -----------------------*/
+
+.loading {
+	display: block;
+	margin: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	
+    /* animation: turns 4s infinite;
+    animation-delay: 0.5s; */
+}
+
+#logo {
+	margin-top: -150px;
+	margin-left: -80px;
+}
+
+#nome {
+	position: absolute;
+	margin-top: -40px;
+	margin-left: -280px;
+}
+
+/* @keyframes turns {
+	0% {
+		transform: rotateY(0deg);
+	}
+	50% {
+		transform: rotateY(-180deg);
+	}
+} */
+
+/*-----------------------
+  CONTENT
+ -----------------------*/
+
+.content {
+	text-align: center;
+	margin-top: 50px;
+	text-shadow: 0px 0px 4px #FFF;
+	color: #7F7F7F;
+}
+
+.content h1 {
+	position: relative;
+	margin-right: 50px;
+	margin-left: 50px;
+	font-size: 35px;
+	margin-bottom: 15px;
+}
+
+.content h2 {
+	position: relative;
+	font-size: 35px;
+
+}
+
+.content p {
+	position: relative;
+	top: 450px;
+	font-size: 25px;
+	color: #5B9BD5;
+	
+} 
+
+/* color: #92D050; Verde*/
+/* color: #5B9BD5; Azul */ 
+
+/*-----------------------
+	CLEAR FLOAT
+  -----------------------*/
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
